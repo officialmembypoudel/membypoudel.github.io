@@ -1,0 +1,76 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: blueviolet; */
+    height: 100%;
+}
+
+.my-br{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color:#CEFBF7;
+}
+
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#mainNavbar .nav-link{
+    color: blueviolet;
+}
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+
+/* copied from medium */
+.active {
+    border-bottom: 2px solid #000f13;
+  }
+
+.home{
+    height: 50%;
+    /* margin: 5% 0; */
+    padding-top: 20%;
+    padding-bottom: 10%;
+    border-radius: 25px;
+    background-color: white;
+    background-image: url(../imgs/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-txt{
+    font-family: 'Anton', sans-serif;
+}
+.navbar.scrolled {
+    background: #e3f2fd;
+    transition: background 500ms;
+}
+
+.my-info{
+    background-color: #fa8e44;
+    border-radius: 25px;
+}
+
+.my-info2{
+    background-color: #96577f;
+    border-radius: 25px;
+}
+.my-info3{
+    background-color: #1f3095;
+    border-radius: 25px;
+}
+
+@media (max-width: 576px) {
+    .home{
+        height: 400px;
+        padding-top: 35%;
+    }
+}
