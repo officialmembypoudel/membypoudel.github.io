@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Query is Submitted</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pushster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- css for this page -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .middle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(65, 225, 158);
+            width: 45%;
+            padding: 2rem;
+            text-align: center;
+            color: white;
+            border-radius: 0.3rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+
+        .container a {
+            border: 2px solid royalblue;
+            padding: 0.5rem;
+            text-decoration: none;
+            background-color: royalblue;
+            color: white;
+            border-radius: 0.3rem;
+            font-weight: 500;
+        }
+
+        .container a:hover {
+            background-color: white;
+            color: rgb(65, 225, 158);
+            border: 3px solid royalblue;
+            transition: background 0.5s;
+        }
+
+        @media (max-width:720px) {
+            .container {
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your Message was sent successfully</h1>
+        <p>Thanks for Submitting your query, we will try to get you back as soon as possible</p>
+        <a href="https://easterncomputer.com.np/">Go Back To Homepage!</a>
+    </div>
+</body>
+
+</html>

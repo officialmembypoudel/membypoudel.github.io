@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddhakali Kitchen Store</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pushster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light my-bg sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand my-brand py-0"> Siddhakali</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLinks"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav ms-auto mero-nav">
+            <li id="sec-1" class="nav-item me-1 me-xl-5">
+              <a href="#one" class="nav-link">HOME</a>
+            </li>
+            <li id="sec-2" class="nav-item me-1 me-xl-5">
+              <a href="#two" class="nav-link">TESTIMONIALS</a>
+            </li>
+            <li id="sec-3" class="nav-item me-1 me-xl-5">
+              <a href="#three" class="nav-link">OUR PRODUCTS</a>
+            </li>
+            <li id="sec-4" class="nav-item me-1 me-xl-5">
+              <a href="#four" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+          <!-- <a id="sec-4" href="#four" class="btn btn-outline-dark" style="font-weight: 700;">Get Quote</a> -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            style="font-weight: 700"
+            data-bs-toggle="modal"
+            data-bs-target="#getquote"
+          >
+            Get Quote
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="one" class="default first item">
+      <header class="head-img align-items-start align-items-xl-center">
+        <div class="container my-header">
+          <div class="row justify-content-between">
+            <div class="col-xl-6 m-auto py-0 px-5 order-2 order-xl-1">
+              <h1 class="mero-c">A STORE FOR EVERYTHING KITCHEN RELATED!</h1>
+              <p class="mero-c">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                placeat quae repellat facere debitis, suscipit velit,
+                perspiciatis, ipsam error ad nam et qui esse consectetur illum
+                corrupti quis at quaerat.
+              </p>
+              <button
+                type="button"
+                class="btn btn-danger btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#getquote"
+              >
+                Contact Us
+              </button>
+            </div>
+            <div
+              class="col-xl-6 d-flex justify-content-center order-1 order-xl-2"
+            >
+              <img src="./assets/imgs/header.png" alt="" class="header-img2" />
+            </div>
+          </div>
+          <div id="sec-2" class="text-center align-self-end">
+            <a
+              href="#two"
+              class="mero-c small"
+              style="color: #dc3545; font-size: 3rem"
+            >
+              <i class="bi bi-arrow-down-circle"></i>
+              <!-- <i class="material-icons-outlined md-48 mero-c">arrow_circle_down</i> -->
+            </a>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section id="two" class="container mt-2 mt-lg-5 mb-2 mb-lg-5 item">
+      <h2
+        class="text-center mero-prime"
+        style="font-family: 'Secular One', sans-serif; font-size: 3rem"
+      >
+        TESTIMONIALS
+      </h2>
+      <div id="test" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#test"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#test"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#test"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <article class="rounded carousel-item active text-center">
+            <div class="lead card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Their customer service is very good mix of professionalism and
+                  friendliness. Satisfied!
+                </p>
+                <footer class="blockquote-footer">Memby P</footer>
+              </blockquote>
+            </div>
+          </article>
+          <article class="rounded carousel-item text-center">
+            <div class="lead card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  They are very good provider of desktops and laptops. Highly
+                  satisfied with their products.
+                </p>
+                <footer class="blockquote-footer">Hari K</footer>
+              </blockquote>
+            </div>
+          </article>
+          <article class="rounded carousel-item text-center">
+            <div class="lead card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Got a cctv from them, they help me setup the camera on my
+                  phone, works fine after an year. Thanks!
+                </p>
+                <footer class="blockquote-footer">Kumar D</footer>
+              </blockquote>
+            </div>
+          </article>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#test"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#test"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="three" class="container mb-5 item">
+      <h2
+        class="text-center mero-prime"
+        style="font-family: 'Secular One', sans-serif; font-size: 3rem"
+      >
+        SHOWCASE PRODUCTS
+      </h2>
+      <div class="row gap-2 justify-content-evenly">
+        <div class="card mero-prime-bg mero-c" style="width: 18rem">
+          <img src="./assets/imgs/vostro.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse
+              perspiciatis dolorem eaque, necessitatibus suscipit, nisi
+            </p>
+          </div>
+        </div>
+        <div class="card mero-prime-bg mero-c" style="width: 18rem">
+          <img src="./assets/imgs/yoga.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">lorem ipsum</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse
+              perspiciatis dolorem eaque, necessitatibus suscipit, nisi
+            </p>
+          </div>
+        </div>
+        <div class="card mero-prime-bg mero-c" style="width: 18rem">
+          <img src="./assets/imgs/nitro.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">lorem ipsum</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse
+              perspiciatis dolorem eaque, necessitatibus suscipit, nisi
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row gap-2 mt-2 justify-content-evenly">
+        <div class="card mero-prime-bg mero-c" style="width: 18rem">
+          <img src="./assets/imgs/vostro.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse
+              perspiciatis dolorem eaque, necessitatibus suscipit, nisi
+            </p>
+          </div>
+        </div>
+        <div class="card mero-prime-bg mero-c" style="width: 18rem">
+          <img src="./assets/imgs/yoga.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">lorem ipsum</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse
+              perspiciatis dolorem eaque, necessitatibus suscipit, nisi
+            </p>
+          </div>
+        </div>
+        <div class="card mero-prime-bg mero-c" style="width: 18rem">
+          <img src="./assets/imgs/nitro.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">lorem ipsum</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse
+              perspiciatis dolorem eaque, necessitatibus suscipit, nisi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="four" class="p-5 item mero-prime-bg">
+      <div class="row text-center pt-3">
+        <div class="col-md-4">
+          <span class="material-icons">near_me</span>
+          <hr style="height: 3px; color: #080c25" />
+          <p>
+            Itahari, Sunsari <br />
+            Province Number 1, Nepal
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="material-icons"> phone_in_talk </span>
+          <hr style="height: 3px; color: #080c25" />
+          <p>
+            025-590225 <br />
+            siddhakalikitchenstore@gmail.com <br />
+            <i class="fab fa-facebook"></i>/siddhakalikitchenstore
+          </p>
+        </div>
+        <div class="col-md-4 pt-2">
+          <i class="fas fa-laptop-code"> Made By MEMBY</i>
+          <hr style="height: 3px; color: #080c25" />
+          <p>
+            9842741992 <br />
+            officialmembypoudel@gmail.com <br /><a
+              href="https://facebook.com/officialmemby"
+              class="fab fa-facebook mero-c"
+            >
+              /Officialmemby</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="getquote"
+      tabindex="-1"
+      aria-labelledby="getquote"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="getquote">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form
+              class="needs-validation"
+              novalidate
+              action="https://formsubmit.co/siddhakalikitchenstore@gmail.com"
+              method="post"
+            >
+              <!-- <input type="hidden" name="accessKey" value="21b44f29-5742-4eb2-adc1-baa9f29bb7b2"> -->
+              <!-- Required -->
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  required
+                />
+                <div class="invalid-feedback">Please provide your name!</div>
+              </div>
+              <div class="mb-3">
+                <label for="inputEmail1" class="form-label"
+                  >Email address!</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="inputEmail1"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div class="invalid-feedback">Please Provide Your Email</div>
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input
+                  type="number"
+                  name="number"
+                  class="form-control"
+                  id="number"
+                  required
+                />
+                <div class="invalid-feedback">Please provide phone number!</div>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  name="_subject"
+                  class="form-control"
+                  id="subject"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide subject for quotation!
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="details" class="form-label"
+                  >Tell Us Your Query About?</label
+                >
+                <textarea
+                  type="text"
+                  name="Details of Message"
+                  class="form-control"
+                  id="details"
+                  required
+                ></textarea>
+                <div class="invalid-feedback">
+                  Please provide query for quotation!
+                </div>
+              </div>
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="true" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://easterncomputer.com.np/success.html"
+              />
+              <input type="text" name="_honey" style="display: none" />
+              <button type="submit" class="btn btn-primary">Submit</button>
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3c79e9cb0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+
+    <script>
+      $("#sec-1").click(function () {
+        $("html, body").animate(
+          {
+            scrollTop: $("#one").offset().top - 66,
+          },
+          1000
+        );
+        return false;
+      });
+
+      $("#sec-2").click(function () {
+        $("html, body").animate(
+          {
+            scrollTop: $("#two").offset().top - 112,
+          },
+          1000
+        );
+        return false;
+      });
+
+      $("#sec-3").click(function () {
+        $(" html,body").animate(
+          {
+            scrollTop: $("#three").offset().top - 112,
+          },
+          1000
+        );
+        return false;
+      });
+
+      $("#sec-4").click(function () {
+        $("html,body ").animate(
+          {
+            scrollTop: $("#four").offset().top - 112,
+          },
+          1000
+        );
+        return false;
+      });
+    </script>
+  </body>
+</html>
